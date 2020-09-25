@@ -1,4 +1,4 @@
-<div class="row sadmin-input">
+<div class="row sadmin-input {{ $row->class ?? '' }}">
     @if($row->label)
         <label class="col-lg-3 col-md-4 form-control-label">{{ $row->label }}:</label>
     @endif
